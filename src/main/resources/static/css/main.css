@@ -1,0 +1,60 @@
+h1 {
+	color: #0000FF;
+}
+
+h2 {
+	color: #FF0000;
+}
+
+.error-container {
+	color: #A71E22;
+	border: 1px solid #ddb6ac;
+	background-color: #f9e2df;
+}
+
+.exito-container {
+	color: #238441;
+	border: 1px solid #afd25a;
+	background-color: #deebbc;
+}
+
+.table-format {
+	font-size: 11px;
+	font-family: arial;
+	border-collapse: collapse;
+	table-layout: fixed;
+	white-space: pre-wrap;
+	/*style='font-size: 10px; font-family: monospace; border-collapse: collapse;width: 100%;*/
+}
+
+.table-format th {
+	height: 75px;
+	text-align: center;
+}
+
+.table-format td {
+	overflow: hidden;
+	word-wrap: break-word;
+	border: solid 1px;
+	max-width: 50px;
+	vertical-align: top;
+}
+
+.xml-format {
+	font-size: 10px;
+	font-family: monospace;
+	white-space: pre-wrap;
+	color: red;
+	min-width: 500px !important;
+	max-width: 500px !important;
+}
+
+.json-format {
+	font-size: 10px;
+	font-family: monospace;
+	white-space: pre-wrap;
+	color: green;
+	min-width: 500px !important;
+	max-width: 500px !important;
+	
+}
